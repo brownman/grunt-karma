@@ -27,7 +27,7 @@ module.exports = function(grunt) {
         browsers: browsers,
         files: [
           'node_modules/expect.js/expect.js',
-        'src/**/*.js',
+        'src/**/aggregation_start.js',
           'test/**/*.js'
         ],
         frameworks: ['mocha'],
